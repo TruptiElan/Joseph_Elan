@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58A6E2B515997A4400C2149A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A6E2B415997A4400C2149A /* UIKit.framework */; };
+		58A6E2B715997A4400C2149A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A6E2B615997A4400C2149A /* Foundation.framework */; };
+		58A6E2B915997A4400C2149A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A6E2B815997A4400C2149A /* CoreGraphics.framework */; };
+		58A6E2BF15997A4400C2149A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58A6E2BD15997A4400C2149A /* InfoPlist.strings */; };
+		58A6E2C115997A4400C2149A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6E2C015997A4400C2149A /* main.m */; };
+		58A6E2C515997A4400C2149A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6E2C415997A4400C2149A /* AppDelegate.m */; };
+		58A6E2C815997A4400C2149A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6E2C715997A4400C2149A /* MasterViewController.m */; };
+		58A6E2CB15997A4400C2149A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6E2CA15997A4400C2149A /* DetailViewController.m */; };
+		58A6E2CE15997A4400C2149A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A6E2CC15997A4400C2149A /* MasterViewController.xib */; };
+		58A6E2D115997A4400C2149A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A6E2CF15997A4400C2149A /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58A6E2B015997A4400C2149A /* ElanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A6E2B415997A4400C2149A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58A6E2B615997A4400C2149A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58A6E2B815997A4400C2149A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58A6E2BC15997A4400C2149A /* ElanDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElanDemo-Info.plist"; sourceTree = "<group>"; };
+		58A6E2BE15997A4400C2149A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58A6E2C015997A4400C2149A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58A6E2C215997A4400C2149A /* ElanDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElanDemo-Prefix.pch"; sourceTree = "<group>"; };
+		58A6E2C315997A4400C2149A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58A6E2C415997A4400C2149A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58A6E2C615997A4400C2149A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		58A6E2C715997A4400C2149A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		58A6E2C915997A4400C2149A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		58A6E2CA15997A4400C2149A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		58A6E2CD15997A4400C2149A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		58A6E2D015997A4400C2149A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58A6E2AD15997A4400C2149A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6E2B515997A4400C2149A /* UIKit.framework in Frameworks */,
+				58A6E2B715997A4400C2149A /* Foundation.framework in Frameworks */,
+				58A6E2B915997A4400C2149A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58A6E2A515997A4400C2149A = {
+			isa = PBXGroup;
+			children = (
+				58A6E2BA15997A4400C2149A /* ElanDemo */,
+				58A6E2B315997A4400C2149A /* Frameworks */,
+				58A6E2B115997A4400C2149A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58A6E2B115997A4400C2149A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58A6E2B015997A4400C2149A /* ElanDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58A6E2B315997A4400C2149A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58A6E2B415997A4400C2149A /* UIKit.framework */,
+				58A6E2B615997A4400C2149A /* Foundation.framework */,
+				58A6E2B815997A4400C2149A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58A6E2BA15997A4400C2149A /* ElanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				58A6E2C315997A4400C2149A /* AppDelegate.h */,
+				58A6E2C415997A4400C2149A /* AppDelegate.m */,
+				58A6E2C615997A4400C2149A /* MasterViewController.h */,
+				58A6E2C715997A4400C2149A /* MasterViewController.m */,
+				58A6E2C915997A4400C2149A /* DetailViewController.h */,
+				58A6E2CA15997A4400C2149A /* DetailViewController.m */,
+				58A6E2CC15997A4400C2149A /* MasterViewController.xib */,
+				58A6E2CF15997A4400C2149A /* DetailViewController.xib */,
+				58A6E2BB15997A4400C2149A /* Supporting Files */,
+			);
+			path = ElanDemo;
+			sourceTree = "<group>";
+		};
+		58A6E2BB15997A4400C2149A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58A6E2BC15997A4400C2149A /* ElanDemo-Info.plist */,
+				58A6E2BD15997A4400C2149A /* InfoPlist.strings */,
+				58A6E2C015997A4400C2149A /* main.m */,
+				58A6E2C215997A4400C2149A /* ElanDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58A6E2AF15997A4400C2149A /* ElanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A6E2D415997A4400C2149A /* Build configuration list for PBXNativeTarget "ElanDemo" */;
+			buildPhases = (
+				58A6E2AC15997A4400C2149A /* Sources */,
+				58A6E2AD15997A4400C2149A /* Frameworks */,
+				58A6E2AE15997A4400C2149A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElanDemo;
+			productName = ElanDemo;
+			productReference = 58A6E2B015997A4400C2149A /* ElanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58A6E2A715997A4400C2149A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 58A6E2AA15997A4400C2149A /* Build configuration list for PBXProject "ElanDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58A6E2A515997A4400C2149A;
+			productRefGroup = 58A6E2B115997A4400C2149A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58A6E2AF15997A4400C2149A /* ElanDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58A6E2AE15997A4400C2149A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6E2BF15997A4400C2149A /* InfoPlist.strings in Resources */,
+				58A6E2CE15997A4400C2149A /* MasterViewController.xib in Resources */,
+				58A6E2D115997A4400C2149A /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58A6E2AC15997A4400C2149A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6E2C115997A4400C2149A /* main.m in Sources */,
+				58A6E2C515997A4400C2149A /* AppDelegate.m in Sources */,
+				58A6E2C815997A4400C2149A /* MasterViewController.m in Sources */,
+				58A6E2CB15997A4400C2149A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58A6E2BD15997A4400C2149A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58A6E2BE15997A4400C2149A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58A6E2CC15997A4400C2149A /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58A6E2CD15997A4400C2149A /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		58A6E2CF15997A4400C2149A /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58A6E2D015997A4400C2149A /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58A6E2D215997A4400C2149A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58A6E2D315997A4400C2149A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58A6E2D515997A4400C2149A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElanDemo/ElanDemo-Prefix.pch";
+				INFOPLIST_FILE = "ElanDemo/ElanDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58A6E2D615997A4400C2149A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElanDemo/ElanDemo-Prefix.pch";
+				INFOPLIST_FILE = "ElanDemo/ElanDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58A6E2AA15997A4400C2149A /* Build configuration list for PBXProject "ElanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A6E2D215997A4400C2149A /* Debug */,
+				58A6E2D315997A4400C2149A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A6E2D415997A4400C2149A /* Build configuration list for PBXNativeTarget "ElanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A6E2D515997A4400C2149A /* Debug */,
+				58A6E2D615997A4400C2149A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58A6E2A715997A4400C2149A /* Project object */;
+}
